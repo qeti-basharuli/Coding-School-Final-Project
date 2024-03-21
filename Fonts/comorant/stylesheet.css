@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Madimi One';
+    src: url('MadimiOne-Regular.eot');
+    src: url('MadimiOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MadimiOne-Regular.woff2') format('woff2'),
+        url('MadimiOne-Regular.woff') format('woff'),
+        url('MadimiOne-Regular.ttf') format('truetype'),
+        url('MadimiOne-Regular.svg#MadimiOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('CormorantUpright-Regular.eot');
+    src: url('CormorantUpright-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CormorantUpright-Regular.woff2') format('woff2'),
+        url('CormorantUpright-Regular.woff') format('woff'),
+        url('CormorantUpright-Regular.ttf') format('truetype'),
+        url('CormorantUpright-Regular.svg#CormorantUpright-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
