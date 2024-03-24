@@ -1,28 +1,29 @@
 @font-face {
-    font-family: 'Truculenta 18pt Condensed';
-    src: url('/Fonts/Truculenta18ptCondensed-Regular.eot');
-    src: url('/Fonts/Truculenta18ptCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Fonts/Truculenta18ptCondensed-Regular.woff2') format('woff2'),
-        url('/Fonts/Truculenta18ptCondensed-Regular.woff') format('woff'),
-        url('/Fonts/Truculenta18ptCondensed-Regular.ttf') format('truetype'),
-        url('/Fonts/Truculenta18ptCondensed-Regular.svg#Truculenta18ptCondensed-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Truculenta 18pt Condensed";
+  src: url("/Fonts/Truculenta18ptCondensed-Regular.eot");
+  src: url("/Fonts/Truculenta18ptCondensed-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/Fonts/Truculenta18ptCondensed-Regular.woff2") format("woff2"),
+    url("/Fonts/Truculenta18ptCondensed-Regular.woff") format("woff"),
+    url("/Fonts/Truculenta18ptCondensed-Regular.ttf") format("truetype"),
+    url("/Fonts/Truculenta18ptCondensed-Regular.svg#Truculenta18ptCondensed-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 
 @font-face {
-    font-family: 'Cormorant Upright';
-    src: url('/Fonts/comorant/CormorantUpright-Regular.eot');
-    src: url('/Fonts/comorant/CormorantUpright-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Fonts/comorant/CormorantUpright-Regular.woff2') format('woff2'),
-        url('/Fonts/comorant/CormorantUpright-Regular.woff') format('woff'),
-        url('/Fonts/comorant/CormorantUpright-Regular.ttf') format('truetype'),
-        url('/Fonts/comorant/CormorantUpright-Regular.svg#CormorantUpright-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Cormorant Upright";
+  src: url("/Fonts/comorant/CormorantUpright-Regular.eot");
+  src: url("/Fonts/comorant/CormorantUpright-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/Fonts/comorant/CormorantUpright-Regular.woff2") format("woff2"),
+    url("/Fonts/comorant/CormorantUpright-Regular.woff") format("woff"),
+    url("/Fonts/comorant/CormorantUpright-Regular.ttf") format("truetype"),
+    url("/Fonts/comorant/CormorantUpright-Regular.svg#CormorantUpright-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-

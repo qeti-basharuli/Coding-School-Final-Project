@@ -26,6 +26,15 @@
     color: black;
   }
 }
+
+@media (max-width: 1280px) {
+  .georgian-poetry {
+    display: flex;
+  }
+  .culture-slide {
+    display: none;
+  }
+}
 @media (max-width: 1024px) {
   .container-block {
     display: inline-flex;
@@ -60,6 +69,16 @@
   .left-block {
     width: 450px;
   }
+  .georgian-poetry {
+    display: flex;
+  }
+  .social-icons {
+    display: none;
+    font-size: 360px;
+  }
+  .foot-text {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 800px) {
   body {
@@ -68,12 +87,27 @@
   form {
     width: 600px;
   }
+  .welcome {
+    text-align: justify;
+    margin-left: 200px;
+  }
+  .foot-contact {
+    display: none;
+  }
+  .ab-us {
+    width: 400px;
+  }
+}
+@media (max-width: 900px) {
+  .office {
+    display: none;
+  }
 }
 
-/* @media(max-width:480px) {
-    .container-block {
-        display: block;
-        width: 400px;
-    }
-
-} */
+@media (max-width: 600px) {
+  .georgian-poetry {
+    display: flex;
+    width: 400px;
+    height: 700px;
+  }
+}
