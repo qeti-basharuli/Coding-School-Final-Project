@@ -1,4 +1,4 @@
-@media (max-width: 786px) {
+@media (max-width: 800px) {
   .hamburger-menu {
     display: block;
   }
@@ -34,6 +34,10 @@
   .culture-slide {
     display: none;
   }
+  .main-slide {
+    height: 700px;
+    width: 900px;
+  }
 }
 @media (max-width: 1024px) {
   .container-block {
@@ -50,10 +54,6 @@
     width: 200px;
     height: 130px;
   }
-  /* .main-slide {
-        display: none;
-        background: url(/Images/mountain1.jpg);
-    } */
 }
 
 @media (max-width: 768px) {
@@ -102,6 +102,17 @@
   .office {
     display: none;
   }
+  .slide-image {
+    filter: none;
+  }
+  .image-data {
+    display: none;
+  }
+  .main-slide {
+    height: 500px;
+    width: 600px;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -110,4 +121,10 @@
     width: 400px;
     height: 700px;
   }
+}
+@media (max-width: 625px) {
+    .main-slide {
+        height: 300px;
+        width: 400px;
+      }
 }
