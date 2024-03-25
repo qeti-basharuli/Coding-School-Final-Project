@@ -20,11 +20,11 @@
 
     <title>Explore Georgia</title>
 
-    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="CSS/reset.css" />
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <link rel="stylesheet" href="CSS/media.css" />
-    <link rel="stylesheet" href="CSS/fonts.css" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <link rel="stylesheet" href="./CSS/fonts.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -49,15 +49,13 @@
             <a class="a-item" href="#culture">Culture</a>
           </li>
           <li class="nav-li">
-            <a class="a-item" href="#poets">Georgian Poets</a>
+            <a class="a-item" href="#poets1">Georgian Poets</a>
           </li>
           <li class="nav-li">
             <a class="a-item" href="#contact">Contact</a>
           </li>
           <li class="nav-li">
-            <button class="reg-button">
-              <a class="a-item" href="registration.html">Registration</a>
-            </button>
+            <a class="a-item" href="registration.html">Registration</a>
           </li>
         </ul>
 
@@ -73,7 +71,11 @@
     <section class="main-slide swiper mySwiper">
       <div class="slide-wrapper swiper-wrapper">
         <div class="slide swiper-slide">
-          <img class="slide-image" src="/Images/slider/img5.jpg" alt="" />
+          <img
+            class="slide-image"
+            src="./Images/slider/img5.jpg"
+            alt="first slide"
+          />
           <div class="image-data">
             <!-- <span class="slide-text">Welcome To Georgia</span> -->
             <h2>Top visited places in Georgia</h2>
@@ -82,7 +84,7 @@
         <div class="slide swiper-slide">
           <img
             class="slide-image"
-            src="/Images/slider/tbilisi.jpg"
+            src="./Images/slider/tbilisi.jpg"
             alt="tbilisi"
           />
           <div class="image-data tbilisi">
@@ -100,7 +102,7 @@
         <div class="slide swiper-slide">
           <img
             class="slide-image"
-            src="/Images/slider/mtskheta.jpg"
+            src="./Images/slider/mtskheta.jpg"
             alt="mtskheta"
           />
           <div class="image-data mtskheta">
@@ -120,7 +122,11 @@
           </div>
         </div>
         <div class="slide swiper-slide">
-          <img class="slide-image" src="/Images/slider/jvari.jpg" alt="jvari" />
+          <img
+            class="slide-image"
+            src="./Images/slider/jvari.jpg"
+            alt="jvari"
+          />
           <div class="image-data jvari">
             <span class="slide-text">Jvari Monastery</span>
             <p>
@@ -143,7 +149,7 @@
         <div class="slide swiper-slide">
           <img
             class="slide-image"
-            src="/Images/slider/kutaisi.jpg"
+            src="./Images/slider/kutaisi.jpg"
             alt="kutaisi"
           />
           <div class="image-data kutaisi">
@@ -161,7 +167,7 @@
         <div class="slide swiper-slide">
           <img
             class="slide-image"
-            src="/Images/slider/akhaltsikhe.jpg"
+            src="./Images/slider/akhaltsikhe.jpg"
             alt="akhaltsikhe"
           />
           <div class="image-data akhaltsikhe">
@@ -188,7 +194,7 @@
         <div class="slide swiper-slide">
           <img
             class="slide-image"
-            src="/Images/slider/sighnagh.jpg"
+            src="./Images/slider/sighnagh.jpg"
             alt="signaghi"
           />
           <div class="image-data signaghi">
@@ -539,7 +545,7 @@
         </p>
       </div>
     </section>
-    <section class="culture-slide" id="poets">
+    <section class="culture-slide" id="poets1">
       <h2 class="great">Meet Our Greatest Poets Of All Time</h2>
       <div class="geo-poets">
         <div class="person1">
@@ -590,7 +596,9 @@
         </div>
       </div>
     </section>
-
+    <section class="server-api">
+      <div id="api"></div>
+    </section>
     <!-- footer -->
     <footer id="contact">
       <div class="line-container">
@@ -640,11 +648,11 @@
           </a>
         </div>
       </div>
-
-      <!-- <p class="exp-geo">© 2024 Explore Georgia</p> -->
     </footer>
 
-    <script src="/JAVASCRIPT/swiper-bundle.min.js"></script>
-    <script src="/JAVASCRIPT/script.js"></script>
+    <script src="./JAVASCRIPT/swiper-bundle.min.js"></script>
+    <script src="./JAVASCRIPT/form.js"></script>
+    <script src="./JAVASCRIPT/script.js"></script>
+
   </body>
 </html>

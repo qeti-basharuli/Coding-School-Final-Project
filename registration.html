@@ -29,96 +29,43 @@
     />
   </head>
 
-  <body>
+  <body class="form-valid">
     <!-- header -->
-    <!-- <header class="head">
+    <header class="head">
       <nav class="navigation">
         <a href="index.html">
           <img class="logo" src="Images/logo.svg" alt="logo" />
         </a>
-        <ul class="nav-ul">
-          <li class="nav-li">
-            <a class="a-item" href="#welcome1">Welcome</a>
-          </li>
-          <li class="nav-li">
-            <a class="a-item" href="#nature">Nature & Adventure</a>
-          </li>
-          <li class="nav-li">
-            <a class="a-item" href="#culture">Culture</a>
-          </li>
-          <li class="nav-li">
-            <a class="a-item" href="#contact">Contact</a>
-          </li>
-          <li class="nav-li">
-            <button class="reg-button">
-              <a class="a-item" href="registration.html">Registration</a>
-            </button>
-          </li>
-        </ul>
-
-        <div class="hamburger-menu">
-          <div class="ham-bar bar-top"></div>
-          <div class="ham-bar bar-md"></div>
-          <div class="ham-bar bar-bottom"></div>
-        </div>
       </nav>
-    </header> -->
+    </header>
 
-    <section class="reg-section">
-        <div class="reg-container">
-            <div class="reg-title">Registration</div>
-            <form action="#">
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Full Name</span>
-                        <input type="text" placeholder="Enter Your Name" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Username</span>
-                        <input type="text" placeholder="Enter Your Username" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Email</span>
-                        <input type="text" placeholder="Enter Your Email" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Phone Number</span>
-                        <input type="text" placeholder="Enter Your Number" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Password</span>
-                        <input type="text" placeholder="Enter Your Password" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Confirm Password</span>
-                        <input type="text" placeholder="Confirm Your Password" required>
-                    </div>
-                </div>
-                <div class="gender-details">
-                    <input type="radio" name="gender" id="dot-1">
-                    <input type="radio" name="gender" id="dot-2">
-                    <input type="radio" name="gender" id="dot-3">
-                    <span class="gender-title">Gender</span>
-                    <div class="category">
-                        <label for="dot-1">
-                            <span class="dot one"></span>
-                            <span class="gender">Male</span>
-                        </label>
-                        <label for="dot-2">
-                            <span class="dot two"></span>
-                            <span class="gender">Female</span>
-                        </label>
-                        <label for="dot-3">
-                            <span class="dot three"></span>
-                            <span class="gender">Prefer not to say</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="form-button">
-                    <input type="submit" value="Register">
-                </div>
-            </form>
+    <div class="reg-container">
+      <form action="#" id="form">
+        <h1>Registration</h1>
+        <div class="input-control">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" required />
+          <div class="error"></div>
         </div>
-    </section>
+        <div class="input-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" required />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Confirm Password</label>
+          <input type="password2" name="password2" id="password2" required />
+          <div class="error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+    <script src="JAVASCRIPT/script.js"></script>
+    <script src="JAVASCRIPT/swiper-bundle.min.js"></script>
   </body>
 </html>
