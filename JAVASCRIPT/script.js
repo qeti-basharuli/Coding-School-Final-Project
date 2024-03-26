@@ -35,7 +35,6 @@ let swiper = new Swiper(".mySwiper", {
   },
 });
 
-
 fetch("https://reqres.in/api/users?page", {
   method: "GET",
 })
@@ -66,4 +65,3 @@ fetch("https://reqres.in/api/users?page", {
       document.getElementById("api").appendChild(p);
     }
   });
-

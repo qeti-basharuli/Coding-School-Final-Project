@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let form = document.getElementById("form");
 let username = document.getElementById("username");
