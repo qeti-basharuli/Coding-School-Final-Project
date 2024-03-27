@@ -73,15 +73,8 @@ section {
 /* form validation */
 .form-valid {
   font-family: "Cormorant Upright";
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#c7c7c7),
-    color-stop(#badeea),
-    to(#2c5364)
-  );
   background: -o-linear-gradient(left, #c7c7c7, #badeea, #2c5364);
+  background: -webkit-gradient(linear, left top, right top, from(#c7c7c7), color-stop(#badeea), to(#2c5364));
   background: linear-gradient(to right, #c7c7c7, #badeea, #2c5364);
 }
 #form {
@@ -106,15 +99,8 @@ section {
   font-family: "Cormorant Upright";
   font-weight: 600;
   font-size: 20px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#c3baba),
-    color-stop(#85c2d6),
-    to(#2c5364)
-  );
   background: -o-linear-gradient(left, #c3baba, #85c2d6, #2c5364);
+  background: -webkit-gradient(linear, left top, right top, from(#c3baba), color-stop(#85c2d6), to(#2c5364));
   background: linear-gradient(to right, #c3baba, #85c2d6, #2c5364);
   border: none;
   border-radius: 400px;
@@ -618,7 +604,8 @@ section {
 /* footer */
 footer {
   max-width: 1200px;
-  height: 100px;
+  height: 100%;
+  margin-top: 65px;
   background-color: transparent;
 }
 .line-container {
@@ -653,8 +640,11 @@ footer {
   -ms-flex-direction: row;
   flex-direction: row;
 }
+.foot-line {
+  margin-top: 20px;
+}
 .ab-us {
-  width: 516px;
+  width: 600px;
   height: 140px;
 }
 .ab-us h5 {

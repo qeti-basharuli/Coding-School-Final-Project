@@ -94,7 +94,6 @@
   }
   .media-img1 {
     width: 400px;
-    /* margin-left: 120px; */
   }
   .footer-row {
     width: 900px;
@@ -103,7 +102,7 @@
 
 @media (max-width: 920px) {
   .ab-us {
-    width: 200px;
+    width: 400px;
     height: 130px;
   }
   .image-data {
@@ -137,13 +136,13 @@
   }
 }
 
-@media (max-width: 800px) {
-}
-
 @media (max-width: 768px) {
+  section {
+    width: 500px;
+  }
   .container-block {
     display: block;
-    margin: 35px 160px;
+    margin: 35px 110px;
   }
   .georgia-img {
     margin: 25px;
@@ -158,29 +157,64 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .social-icons {
-    display: none;
-    font-size: 360px;
+  .footer-row {
+    width: 500px;
   }
-  .foot-text {
-    margin: 0 auto;
-  }
+  /* .welcome {
+    text-align: justify;
+    margin-left: 120px;
+  } */
 }
 
-@media (max-width: 625px) {
+@media (max-width: 640px) {
   .main-slide {
     height: 300px;
     width: 400px;
   }
-}
-
-@media (max-width: 600px) {
   .georgian-poetry {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 400px;
     height: 700px;
+  }
+  .geo-poetry {
+    width: 500px;
+    margin-left: 220px;
+  }
+  .foot-line {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .georgian-poetry {
+    display: none;
+  }
+  .foot-line {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .left-block {
+    display: none;
+  }
+  .right-block {
+    margin-right: 25px;
+  }
+  .welcome {
+    display: none;
+  }
+  .p-text {
+    display: none;
+  }
+  .media-img {
+    display: block;
+  }
+  .georgia-img {
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -189,6 +223,9 @@
     height: 200px;
     width: 400px;
     background: none;
+  }
+  .media-img {
+    margin-right: 250px;
   }
 }
 
