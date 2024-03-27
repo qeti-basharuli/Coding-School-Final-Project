@@ -1,20 +1,26 @@
 "use strict";
+
+// import {validationForm} from "./form.js";
+// validationForm();
+
+
 // burger bar
 
-let hamMenu = document.querySelector(".hamburger-menu");
-let navMenu = document.querySelector(".nav-ul");
+  let hamMenu = document.querySelector(".hamburger-menu");
+  let navMenu = document.querySelector(".nav-ul");
 
-hamMenu.addEventListener("click", () => {
-  hamMenu.classList.toggle("active");
-  navMenu.classList.toggle("active");
-});
+  hamMenu.addEventListener("click", () => {
+    hamMenu.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
 
-document.querySelectorAll(".a-item").forEach((n) =>
-  n.addEventListener("click", () => {
-    hamMenu.classList.remove("active");
-    navMenu.classList.remove("active");
-  })
-);
+  document.querySelectorAll(".a-item").forEach((n) =>
+    n.addEventListener("click", () => {
+      hamMenu.classList.remove("active");
+      navMenu.classList.remove("active");
+    })
+  );
+
 
 //slider
 
@@ -35,7 +41,9 @@ let swiper = new Swiper(".mySwiper", {
   },
 });
 
-fetch("https://reqres.in/api/users?page", {
+// fetch
+
+fetch("https://jsonplaceholder.typicode.com/comments", {
   method: "GET",
 })
   .then(function (response) {
@@ -45,13 +53,12 @@ fetch("https://reqres.in/api/users?page", {
     }
     return response.json();
   })
-  .then(function (mosuliData) {
+  .then(function (data) {
     let ul = document.createElement("ul");
 
-    mosuliData.data.forEach((element) => {
+    data.data.forEach((element) => {
       console.log(element);
       let li = document.createElement("li");
-      // li.textContent = element.first_name + " " + element.last_name;
       li.textContent = `${element.first_name} ${element.last_name}`;
       ul.appendChild(li);
     });

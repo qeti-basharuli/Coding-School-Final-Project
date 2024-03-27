@@ -1,11 +1,12 @@
 "use strict";
 
+// export function validationForm() {}
+
 let form = document.getElementById("form");
 let username = document.getElementById("username");
 let email = document.getElementById("email");
 let password = document.getElementById("password");
 let password2 = document.getElementById("password2");
-let select = document.getElementById("sel-country");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -41,7 +42,6 @@ let validateInputs = () => {
   let emailValue = email.value.trim();
   let passwordValue = password.value.trim();
   let password2Value = password2.value.trim();
-  let selectValue = select.value.trim();
 
   if (usernameValue === "") {
     setError(username, "Username is required");
