@@ -95,6 +95,8 @@
   font-family: 'Madimi One';
   font-weight: 600;
   font-size: 18px;
+  background: -webkit-gradient(linear, left top, right top, from(#c3baba), color-stop(#85c2d6), to(#2c5364));
+  background: -o-linear-gradient(left, #c3baba, #85c2d6, #2c5364);
   background: linear-gradient(to right, #c3baba, #85c2d6, #2c5364);
   border: none;
   border-radius: 400px;
