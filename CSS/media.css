@@ -4,7 +4,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .culture-slide {
+  .culture {
     display: none;
   }
   .main-slide {
@@ -52,9 +52,6 @@
     left: -100%;
     top: 70px;
     gap: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     background-color: transparent;
     width: 100%;

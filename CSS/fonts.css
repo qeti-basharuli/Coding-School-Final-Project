@@ -12,6 +12,18 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Madimi One';
+  src: url('../Fonts/comorant/MadimiOne-Regular.eot');
+  src: url('../Fonts/comorant/MadimiOne-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/comorant/MadimiOne-Regular.woff2') format('woff2'),
+      url('../Fonts/comorant/MadimiOne-Regular.woff') format('woff'),
+      url('../Fonts/comorant/CormorantUpright-Regular.ttf') format('truetype'),
+      url('../Fonts/comorant/CormorantUpright-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Cormorant Upright";

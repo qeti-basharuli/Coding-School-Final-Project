@@ -1,12 +1,9 @@
 /* header */
-section {
-  width: 1220px;
-}
+
 .head {
   width: 100%;
   height: 100px;
   position: fixed;
-  /* position: relative; */
   top: 0;
   left: 0;
 }
@@ -28,7 +25,6 @@ section {
   height: 94px;
 }
 .nav-ul {
-  /* position: absolute; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +49,7 @@ section {
   align-items: center;
 }
 .a-item {
-  font-family: "Truculenta 18pt Condensed";
+  font-family: 'Madimi One';
   text-shadow: 2px 2px 8px;
   font-weight: 900;
   -webkit-transition: 0.7s ease;
@@ -71,8 +67,9 @@ section {
 }
 
 /* form validation */
+
 .form-valid {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   background: -o-linear-gradient(left, #c7c7c7, #badeea, #2c5364);
   background: -webkit-gradient(linear, left top, right top, from(#c7c7c7), color-stop(#badeea), to(#2c5364));
   background: linear-gradient(to right, #c7c7c7, #badeea, #2c5364);
@@ -91,22 +88,19 @@ section {
   text-align: center;
   font-size: 24px;
 }
-#form button {
+#form a {
   padding: 10px;
-  margin-top: 10px;
-  width: 100%;
+  margin-top: 15px;
   color: black;
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-weight: 600;
-  font-size: 20px;
-  background: -o-linear-gradient(left, #c3baba, #85c2d6, #2c5364);
-  background: -webkit-gradient(linear, left top, right top, from(#c3baba), color-stop(#85c2d6), to(#2c5364));
+  font-size: 18px;
   background: linear-gradient(to right, #c3baba, #85c2d6, #2c5364);
   border: none;
   border-radius: 400px;
 }
 .input-control {
-  margin-top: 10px;
+  margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,6 +133,7 @@ section {
 }
 
 /* burger bar */
+
 .hamburger-menu {
   display: none;
   width: 50px;
@@ -186,12 +181,12 @@ section {
 .bar-bottom {
   top: 75%;
 }
+
 /* slider */
 
 .main-slide {
   height: 600px;
   width: 1200px;
-  /* background-color: red; */
   margin-top: 100px;
 }
 .slide-wrapper .slide {
@@ -199,9 +194,6 @@ section {
   height: 100%;
   border-radius: 5px;
 }
-/* .slide {
-  overflow: hidden;
-} */
 .slide-wrapper::before {
   content: "";
   position: absolute;
@@ -230,16 +222,18 @@ section {
   z-index: 1000;
 }
 .image-data span.slide-text {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 36px;
   font-weight: 600;
 }
 .image-data h2 {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 36px;
   font-weight: 500;
 }
+
 /* slide texts - tbilisi */
+
 .tbilisi {
   margin-bottom: 400px;
   margin-left: 25px;
@@ -249,7 +243,7 @@ section {
   margin-left: 20px;
 }
 .tbilisi p {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 400px;
@@ -260,6 +254,7 @@ section {
 }
 
 /* slide texts - mtskheta */
+
 .mtskheta {
   width: 50%;
   height: 50%;
@@ -276,7 +271,7 @@ section {
   margin-right: 250px;
 }
 .jvari p {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 20px;
   font-weight: 600;
 }
@@ -286,7 +281,7 @@ section {
   margin-right: 200px;
 }
 .kutaisi p {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 20px;
   font-weight: 600;
   margin-right: 30px;
@@ -297,7 +292,7 @@ section {
   margin-right: 100px;
 }
 .akhaltsikhe p {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 20px;
   font-weight: 600;
   margin-left: 30px;
@@ -308,15 +303,16 @@ section {
   margin-left: 100px;
 }
 .signaghi p {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 400px;
 }
 
 /* section 2 */
+
 .welcome {
-  font-family: "Truculenta 18pt Condensed";
+  font-family: 'Madimi One';
   text-shadow: 2px 2px 8px;
   font-weight: 700;
   margin-top: 25px;
@@ -366,17 +362,16 @@ section {
   width: 400px;
 }
 .p-text {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 22px;
-  font-weight: 500;
   text-align: justify;
 }
 .qvevri-block {
   display: none;
 }
 
-/* section 3 slider */
-.culture-slide {
+/* section 3 */
+.culture {
   width: 100%;
   height: 700px;
   display: -webkit-box;
@@ -391,7 +386,7 @@ section {
   align-items: center;
 }
 .poets {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 36px;
   font-weight: 600;
   line-height: 22px;
@@ -400,7 +395,7 @@ section {
   text-align: center;
 }
 .great {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 36px;
   font-weight: 700px;
   line-height: 22px;
@@ -572,7 +567,7 @@ section {
   border-radius: 10px;
 }
 .name {
-  font-family: "Cormorant Upright";
+  font-family: 'Madimi One';
   font-size: 25px;
   font-weight: 900;
   line-height: 37px;
@@ -599,13 +594,15 @@ section {
   text-align: justify;
 }
 .geo-poetry p {
+  font-family: "Cormorant Upright";
   margin-top: 15px;
 }
 /* footer */
+
 footer {
   max-width: 1200px;
+  width: 1200px;
   height: 100%;
-  margin-top: 65px;
   background-color: transparent;
 }
 .line-container {
@@ -641,37 +638,37 @@ footer {
   flex-direction: row;
 }
 .foot-line {
-  margin-top: 20px;
+  margin-top: 200px;
 }
 .ab-us {
   width: 600px;
   height: 140px;
 }
 .ab-us h5 {
+  font-family: 'Madimi One';
   font-size: 20px;
 }
 .ab-us p {
+  font-family: 'Madimi One';
   font-size: 16px;
   margin-top: 14px;
 }
-/* .office {
-  width: 306px;
-  height: 118px;
-} */
 .office h5 {
+  font-family: 'Madimi One';
   font-size: 20px;
   margin-bottom: 14px;
 }
 .office p {
+  font-family: 'Madimi One';
   font-size: 16px;
 }
-/* .foot-contact {
-  width: 255px;
-  height: 94px;
-} */
 .foot-contact h5 {
+  font-family: 'Madimi One';
   font-size: 20px;
   margin-bottom: 14px;
+}
+.foot-contact a {
+  font-family: 'Madimi One';
 }
 .social-icons {
   margin-bottom: 14px;
@@ -685,7 +682,7 @@ footer {
   text-align: center;
 }
 .foot-text {
-  font-family: "Truculenta 18pt Condensed";
+  font-family: 'Madimi One';
 }
 
 .server-api {
